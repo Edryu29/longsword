@@ -1,0 +1,20 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "longsword:stone_longsword"
+        ]
+    },
+    "criteria": {
+        "medieval_stone_recipes": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "minecraft:stone_tool_materials"
+                    }
+                ]
+            }
+        }
+    }
+}

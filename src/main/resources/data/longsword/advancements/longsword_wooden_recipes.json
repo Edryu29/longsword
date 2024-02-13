@@ -1,0 +1,22 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "longsword:wooden_longsword"
+        ]
+    },
+    "criteria": {
+        "medieval_wooden_recipes": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:stick"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

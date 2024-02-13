@@ -16,18 +16,11 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.edryu.longsword.Longsword"
-		],
-		"client": [
-			"net.edryu.longsword.LongswordClient"
+			"net.edryu.longsword.LongswordMain"
 		]
 	},
 	"mixins": [
-		"longsword.mixins.json",
-		{
-			"config": "longsword.client.mixins.json",
-			"environment": "client"
-		}
+		"longsword.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.6",
