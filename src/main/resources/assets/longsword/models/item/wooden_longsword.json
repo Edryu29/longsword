@@ -1,5 +1,5 @@
 {
-  "parent": "item/handheld",
+  "parent": "longsword:item/template_longsword",
   "textures": {
     "layer0": "longsword:item/wooden_longsword"
   }
