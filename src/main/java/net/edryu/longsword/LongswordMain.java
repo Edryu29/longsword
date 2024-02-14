@@ -24,5 +24,7 @@ public class LongswordMain implements ModInitializer {
 	}
 
 	@Override
-	public void onInitialize() {}
+	public void onInitialize() {
+		LongswordLoot.init();
+	}
 }
