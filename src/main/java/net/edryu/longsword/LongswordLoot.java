@@ -34,7 +34,7 @@ public class LongswordLoot {
   );
 
   public static void addItems(List<LootPoolEntry> loot_pool, LootTable.Builder tableBuilder, boolean applyDamage) {
-    /* Function adds 0-2 items that are undamaged with no enchantment */
+    /* Add 0-2 items that are undamaged with no enchantment */
     LootPool.Builder poolBuilder = LootPool.builder()
         .rolls(UniformLootNumberProvider.create(0f, 2f))
         .with(loot_pool);
@@ -44,7 +44,7 @@ public class LongswordLoot {
   }
 
   public static void addEnchantedItems(List<LootPoolEntry> loot_pool, LootTable.Builder tableBuilder, boolean applyDamage) {
-    /* Function adds 0-2 items that are either enchanted and damaged, or full health with no enchantment */
+    /* Add 0-2 items that are either enchanted and damaged, or full health with no enchantment */
     Collection<LootPool> lootPools = new ArrayList<>();
     LootPool.Builder enchantedPoolBuilder = LootPool.builder()
         .rolls(UniformLootNumberProvider.create(0f, 1f))
