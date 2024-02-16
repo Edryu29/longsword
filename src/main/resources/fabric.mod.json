@@ -8,8 +8,8 @@
 		"Edryu"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://www.modrinth.com/mod/longsword",
+		"sources": "https://github.com/Edryu29/longsword"
 	},
 	"license": "MIT",
 	"icon": "assets/longsword/icon.png",
