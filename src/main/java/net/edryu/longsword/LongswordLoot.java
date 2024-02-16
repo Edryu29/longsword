@@ -15,7 +15,7 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 
-import static net.edryu.longsword.LongswordMain.*;
+import static net.edryu.longsword.LongswordRegistry.*;
 import static net.minecraft.loot.LootTables.*;
 
 public class LongswordLoot {
